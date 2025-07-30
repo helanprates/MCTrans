@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>MCTrans</title>
+ <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="./gratuidade.css">
+ <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+      <div class="logo" id="logo">
+        <img src="./assets/img/logo.png" alt="Logo da Empresa">
+      </div>
+      <div class="menu-toggle">
+        ☰ <!-- Ícone do menu (hambúrguer) -->
+      </div>
+  </header>
+
+  <div class="navbar">
+    <a href="./index.html">Início</a>
+    <a href="./transito.html">Trânsito</a>
+    <a href="./transporte.html">Transportes</a>
+    <a href="./financeiro.html">Financeiro</a>
+    <a href="./gratuidade.html">Gratuidade</a>
+    <a href="#">Areazul Digital</a>
+    <a href="./educacao.html">Educação</a>
+    <a href="#footer">Contato</a>
+</div>
+
+
+  <main>
+    <div class="container">    
+        <section id="gratuidade">
+          <h2>Gratuidade</h2>
+          <p>Conheça os serviços gratuitos disponíveis para deficientes e idosos.</p><br>
+        <div class="gratuidade-cards">
+          <div class="gratuidade-card">
+            <h3>SimCard Deficiente</h3>
+            <p>Acesse informações detalhadas sobre o serviço.</p>
+            <a href="#" class="btn">Acessar</a>
+          </div>
+          
+            <div class="gratuidade-card">
+              <h3>SimCard Idoso</h3>
+              <p>Acesse informações detalhadas sobre o serviço.</p>
+              <a href="#" class="btn">Acessar</a>
+            </div>
+          
+              <div class="gratuidade-card">
+                <h3>Credencial de <Em></Em>stacionamento</h3>
+                <p>Acesse informações detalhadas sobre o serviço.</p>
+                <a href="#" class="btn">Acessar</a>
+              </div>
+        </div>
+
+        <div class="agendamento-container">      
+              <h3>Agendamento para Transpecial</h3>
+              <br>
+          <form class="agendamento-form">
+          
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu email" required>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="Digite seu telefone" required>
+
+            <label for="data">Data do Atendimento:</label>
+            <input type="date" id="data" name="data" required>
+
+            <label for="servico">Serviço:</label>
+            <select id="servico" name="servico" required>
+              <option value="">Selecione o serviço</option>
+              <option value="transpecial">Transpecial</option>
+              <option value="simcard-idoso">SimCard Idoso</option>
+              <option value="simcard-deficiente">SimCard Deficiente</option>
+              
+            </select>
+          </form>
+          <br>  
+          <a href="#" class="btn">Agendar</a>
+          
+          </div>
+        </section>
+      </div> <!-- container --> 
+
+      <footer id="footer">
+      <div class="footer-container">
+        <div class="footer-col">
+          <h4>Redes Sociais</h4>
+          <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">LinkedIn</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <p>(11) 1234-5678</p>
+          <p>(11) 8765-4321</p>
+          <p>(11) 1234-5678</p>
+          <p>(11) 8765-4321</p>
+          <p>(11) 1234-5678</p>
+          <p>(11) 8765-4321</p>
+        </div>
+        <div class="footer-col">
+          <h4>Email</h4>
+          <p>contato@empresa.com.br</p>
+          <p>suporte@empresa.com.br</p>
+          <p>contato@empresa.com.br</p>
+          <p>suporte@empresa.com.br</p>
+          <p>contato@empresa.com.br</p>
+          <p>suporte@empresa.com.br</p>
+        </div>
+      </div>
+
+    </footer>
+    
