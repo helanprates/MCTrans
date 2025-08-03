@@ -317,9 +317,17 @@ section p {
   }
   
   
-  /* Responsivo */
-  @media (max-width: 600px) {
-    .navbar {
+
+  
+
+  /* Responsividade */
+@media (max-width: 850px) {
+
+  .container {
+    max-width: 100%;
+  }
+
+   .navbar {
       display: none;
       flex-direction: column;
       position: relative;
@@ -344,15 +352,6 @@ section p {
       align-self: center;
       text-align: center;
     }
-  }
-  
-
-  /* Responsividade */
-@media (max-width: 850px) {
-
-  .container {
-    max-width: 100%;
-  }
 
   .intro {
     flex-direction: column;
