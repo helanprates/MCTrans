@@ -104,7 +104,16 @@
     #vendas_areazul .areazul-container-text {
       flex: 1 1 100%; /* Ocupa 100% da largura em telas menores */
     }
+
+    .back-to-top {
+      font-size: 10px;
+      bottom: 5px;
+      right: 5px;
+      width: 40px;
+      height: 40px;
+    }
   }
+
    .areazul-container{
     display: flex;
     justify-content: space-between;
@@ -184,13 +193,4 @@
   
   .btn-submit:hover {
     background-color: #0056b3;
-  }
-
-  
-  .back-to-top {
-    font-size: 10px;
-    bottom: 0px;
-    right: 0px;
-    width: 40px;
-    height: 40px;
   }
