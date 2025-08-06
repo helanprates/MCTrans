@@ -3,22 +3,21 @@
 
    /*Acesso Rápido */
 
-   #servicos_transito{
+   #servicos_transito {
+    flex-direction: column;
+    height: 100vh;
     display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: space-between;
-    height: auto;
     margin: 0;
-    padding: 1rem 2rem 0rem 2rem;
-   }
+    padding: 1.5rem 2rem 0rem 2rem;
+}
 
    .back-to-top {
+    font-size: 13px;
     position: fixed;
     bottom: 20px;
     right: 20px;
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     background-color: #007bff;
     color: white;
     display: flex;
@@ -185,4 +184,13 @@
   
   .btn-submit:hover {
     background-color: #0056b3;
+  }
+
+  
+  .back-to-top {
+    font-size: 10px;
+    bottom: 0px;
+    right: 0px;
+    width: 40px;
+    height: 40px;
   }
