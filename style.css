@@ -178,7 +178,7 @@ section p {
 
   .blog-flex {
     display: flex;
-    gap: 1.2rem;
+    gap: 1rem;
     border-top: 1px solid rgba(0, 0, 0, 0.20);
     padding-top: 1rem;
     flex-wrap: wrap;
@@ -189,7 +189,7 @@ section p {
     background-color: #ffffff;
     border: 1px solid #ddd;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 30%;
+    width: 32%;
     overflow: hidden;
     text-align: left;
   }
