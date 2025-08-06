@@ -41,7 +41,6 @@
   }
 
   /* Autorização Interdição de Via*/
-    
   .download p {
     margin-bottom: 5px;
   }
@@ -91,18 +90,10 @@
 
   /* Areazul*/
 
-  @media (max-width: 768px) {
-    #servicos_transito .news_item {
-      flex: 1 1 100%; /* Ocupa 100% da largura em telas menores */
-    }
+  @media (max-width: 850px) {
   
-    #vendas_areazul .areazul-container {
+   .areazul-container {
       flex-direction: column;
-    }
-  
-    #vendas_areazul .areazul-image,
-    #vendas_areazul .areazul-container-text {
-      flex: 1 1 100%; /* Ocupa 100% da largura em telas menores */
     }
 
     .back-to-top {
