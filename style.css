@@ -19,7 +19,8 @@
   }
 
   .container {
-    max-width: 75%;
+    width: 75%;
+    max-width: 1250px;
     margin: 0 auto;
     background-color: #f4f4f4;
     min-height: 100vh;
@@ -114,7 +115,7 @@ section p {
 
   .banner {
     width: 60%;
-    max-width: 880px;
+    max-width: 800px;
     box-shadow: 4px 3px 3px #888888;
     height: 307px;
   }
@@ -327,7 +328,7 @@ section p {
 @media (max-width: 800px) {
 
   .container {
-    max-width: 100%;
+    width: 100%;
   }
 
    .navbar {
