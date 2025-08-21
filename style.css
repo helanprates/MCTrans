@@ -27,6 +27,7 @@
     border-radius: 0 0 5px 5px;
   }
 
+  
   hr{
     border-bottom: 2px solid #4fabb4;
     margin-top: -2px;
@@ -48,11 +49,14 @@ section p {
     position: relative;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: start;
     width: 100%;
-    background-color: #ffffff;
-    height: 150px;
-  }
+    height: 240px;
+    background: linear-gradient(to top, rgba(13, 69, 124, 0.8) 0%, rgba(25, 118, 210, 0.0) 25%), url(https://stg01.montesclaros.mg.gov.br/pmmc/assets/bg_site_top.png);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  } 
 
   .logo {
     display: flex;
@@ -365,14 +369,14 @@ section p {
 
   .blog-flex{
     margin: 0 auto;
-    width: 90%;
+    width: 100%;
   }
 
   .blog-card {
     background-color: #ffffff;
     border: 1px solid #ddd;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: 90%;
+    width: 100%;
     overflow: hidden;
     text-align: left;
   }
@@ -395,5 +399,17 @@ section p {
     flex-direction: column;
     align-items: center;
     gap: 2rem;
+  }
+
+  .areazul-container {
+    flex-direction: column;
+  }
+
+  .back-to-top {
+    font-size: 10px;
+    bottom: 5px;
+    right: 5px;
+    width: 40px;
+    height: 40px;
   }
 }

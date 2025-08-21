@@ -90,21 +90,6 @@
 
   /* Areazul*/
 
-  @media (max-width: 850px) {
-  
-   .areazul-container {
-      flex-direction: column;
-    }
-
-    .back-to-top {
-      font-size: 10px;
-      bottom: 5px;
-      right: 5px;
-      width: 40px;
-      height: 40px;
-    }
-  }
-
    .areazul-container{
     display: flex;
     justify-content: space-between;
